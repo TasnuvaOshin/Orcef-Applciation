@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "79879791053",
+    "firebase_url": "https://orcef-final.firebaseio.com",
+    "project_id": "orcef-final",
+    "storage_bucket": "orcef-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79879791053:android:f2d4184ff1fda841",
+        "android_client_info": {
+          "package_name": "com.orcef.orcefadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79879791053-5hoj4ha5cl0hhri1thm53r52s414e7bd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.orcef.orcefadmin",
+            "certificate_hash": "db795ce2a20a0cc0c07339cfd4a48bdc871008a8"
+          }
+        },
+        {
+          "client_id": "79879791053-i431lft67kd0sf3kqpeqmgnhu4aj1p54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaEQeTQ23HKnhaMU-pomL4qmHTVhAtZuo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79879791053-i431lft67kd0sf3kqpeqmgnhu4aj1p54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

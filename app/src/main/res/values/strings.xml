@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Orcef Vision</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_orcef_rx_report">Orcef Rx Report</string>
+    <string name="menu_orcef_rx_summary_report">Orcef Rx Summary Report</string>
+</resources>

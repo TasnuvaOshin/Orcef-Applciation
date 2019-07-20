@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.orcef.orcefadmin.MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:id="@+id/root"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/ResultView"
+        android:visibility="gone"
+        >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recyclerview"
+            />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+
+        >
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/mainView"
+
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="Select Gm/Sm name:"
+                android:textSize="16dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp" />
+            <RelativeLayout
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorWhite"
+
+                >
+                <TextView
+                    android:visibility="gone"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    android:text="Select SM/GM name "
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tv_gm_name"
+
+                    />
+
+                <Spinner
+
+
+                    android:layout_width="match_parent"
+                    android:spinnerMode="dialog"
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinner"
+
+
+                    />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="Select Rsm name:"
+                android:textSize="16dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp" />
+            <RelativeLayout
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+
+                android:background="@android:color/white"
+                >
+                <TextView
+                    android:visibility="gone"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    android:text="Select RSM name "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_rsm_name"
+
+                    />
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinner_rsm"
+                    android:layout_margin="10dp"
+                    android:padding="6dp"
+                    android:popupBackground="#eee"
+                    android:spinnerMode="dialog"
+
+                    />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="Select Dsm name:"
+                android:textSize="16dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp" />
+            <RelativeLayout
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/white"
+                >
+                <TextView
+                    android:visibility="gone"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"
+                    android:text="Select DSM name "
+                    android:layout_width="match_parent"
+                    android:textColor="@android:color/white"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tv_dsm_name"
+
+                    />
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner_dsm"
+                    android:layout_margin="10dp"
+                    android:spinnerMode="dialog"
+
+                    />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="Select Pso name:"
+                android:textSize="16dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp" />
+            <RelativeLayout
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/white"
+                >
+                <TextView
+                    android:visibility="gone"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"
+                    android:text="Select PSO name "
+                    android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tv_pso_name"
+
+                    />
+                <Spinner
+                    android:spinnerMode="dialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinner_pso"
+                    android:layout_margin="10dp"
+
+
+                    />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="Select Team name:"
+                android:textSize="16dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp" />
+            <RelativeLayout
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/white"
+                >
+                <TextView
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center"
+                    android:text="Select team name "
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tv_team_name"
+                    android:visibility="gone"
+
+                    />
+                <Spinner
+                    android:spinnerMode="dialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinner_team"
+                    android:layout_margin="10dp"
+
+                    />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="Select Region name:"
+                android:textSize="16dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp" />
+            <RelativeLayout
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/white"
+                >
+
+
+                <TextView
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:padding="6dp"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"
+                    android:text="Select Region name "
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tv_region_name"
+
+                    />
+                <Spinner
+                    android:spinnerMode="dialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinner_region"
+                    android:layout_margin="10dp"
+
+
+                    />
+            </RelativeLayout>
+            <EditText
+                android:focusable="false"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:background="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/from_date"
+                android:clickable="true"
+                android:textColorHint="@android:color/black"
+                android:editable="false"
+                android:hint="Select From Date"/>
+            <EditText
+                android:focusable="false"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:background="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@android:color/black"
+                android:id="@+id/to_date"
+                android:clickable="true"
+                android:editable="false"
+                android:hint="Select From Date"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="36dp"
+                android:background="@android:color/holo_orange_dark"
+                android:textColor="@android:color/white"
+                android:text="Submit"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:onClick="GetAllImage"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

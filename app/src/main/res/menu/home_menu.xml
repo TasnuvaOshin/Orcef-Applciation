@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/groupOne"
+        android:checkableBehavior="single">
+        <item
+            android:title="@string/menu_home"
+            android:icon="@drawable/menu_icon"
+            android:id="@+id/menu_home"
+
+            />
+        <item
+            android:title="@string/menu_profile"
+            android:icon="@drawable/menu_icon"
+            android:id="@+id/menu_profile"
+            android:visible="false"
+
+            />
+        <item
+            android:title="@string/menu_orcef_rx_report"
+            android:icon="@drawable/menu_icon"
+            android:id="@+id/menu_report"
+
+            />
+        <item
+            android:title="@string/menu_orcef_rx_summary_report"
+            android:icon="@drawable/menu_icon"
+            android:id="@+id/menu_summary_report"
+            />
+
+        <item
+            android:title="Gallery"
+            android:icon="@drawable/menu_icon"
+            android:id="@+id/menu_gallery"
+
+            />
+        <item
+            android:title="Log Out"
+            android:icon="@drawable/menu_icon"
+            android:id="@+id/menu_logout"
+
+            />
+    </group>
+</menu>
